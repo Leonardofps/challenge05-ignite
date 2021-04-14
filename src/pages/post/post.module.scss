@@ -1,1 +1,71 @@
-// TODO
+.slugContainer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.post {
+  max-width: 700px;
+  margin: 5rem auto 0;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  section {
+    margin-top: 4.125rem;
+    line-height: 2rem;
+    color: var(--gray-300);
+
+    h2 {
+      font-size: 2.25rem;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.125rem;
+    }
+
+    p, ul {
+      margin: 1.5rem 0;
+    }
+
+    ul {
+      margin-left: 3rem;
+    }
+  }
+}
+
+.articleInfos {
+  margin-top: 1.56rem;
+      display: flex;
+      align-items: center;
+
+      time {
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 0.875rem;
+        margin-right: 1.68rem;
+
+        svg {
+          width: 15px;
+          height: 15px;
+          margin-right: 0.65rem;
+        }
+      }
+
+      span {
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 0.875rem;
+        margin-right: 1.68rem;
+
+        svg {
+          width: 15px;
+          height: 15px;
+          margin-right: 0.65rem;
+        }
+      }
+}
