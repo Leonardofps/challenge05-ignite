@@ -81,3 +81,21 @@
     }
   }
 }
+
+.previewButton {
+  margin: 3.75rem auto 3.75rem;
+  width: 700px;
+  height: 58px;
+  background: var(--white);
+  color: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+
+  a {
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+
+}

@@ -69,3 +69,73 @@
         }
       }
 }
+
+.navigation {
+  border-top: 1px solid #4d4d4d;
+  max-width: 700px;
+  display: flex;
+  margin: 3.75rem auto 3.75rem;
+  justify-content: space-between;
+
+
+  nav {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+
+    span {
+      display: inline-block;
+      font-size: 1.125rem;
+      font-weight: 400;
+      color: var(--gray-500);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 12.5rem;
+
+    }
+
+    a {
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--pink);
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.prevPageButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nextPageButton {
+  display: flex;
+  justify-content: flex-start;
+  float: right;
+}
+
+.asEditTime {
+  margin-top: 1rem;
+  time {
+    font-size: 0.875rem;
+    font-style: italic;
+  }
+}
+
+.previewButton {
+  margin: 3.75rem auto 3.75rem;
+  width: 700px;
+  height: 58px;
+  background: var(--white);
+  color: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+
+  a {
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+}
